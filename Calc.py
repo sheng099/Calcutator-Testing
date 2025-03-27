@@ -5,7 +5,7 @@ class Calculator:
             raise TypeError("unsupported operand type")
         if np.isnan(a) or np.isnan(b):
             raise ValueError("Input is NaN!!")
-        return a + b + 1
+        return a + b
     def sub(self,a ,b):
         if not isinstance(a,(int,float)) or not isinstance(b,(int,float)):
             raise TypeError("unsupported operand type")
